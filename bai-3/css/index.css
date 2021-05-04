@@ -1,0 +1,348 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#header__info{
+    background-color: #002147;
+    padding: 7px;
+    position: relative;
+    
+}
+#header__info ul li{
+    list-style: none;
+    display: inline;
+    
+}
+#header__info ul li a{
+    color: white;
+    
+}
+#header__apply{
+    text-decoration: none;
+    text-align: center;
+    margin-left: 1400px;
+    background-color: #fdc800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    width: 160px;
+    height: 56px;
+    padding-top: 13px;
+    
+
+}
+#header__apply a{
+    color: black;
+    font-weight: 700;
+}
+#header__info ul i{
+    color: #fdc800  ;
+    margin-left: 160px;
+    padding-top: 15px;
+}
+#header__Home{
+    padding-top: 25px;
+    position: relative;
+}
+#header__Home i{
+    text-align: center;
+    padding: 14px;
+    margin: 2px;
+    margin-left: 160px;
+    color: #fdc800;
+    background-color: #002147;
+    clip-path: circle(45%);
+    height: 54px;
+    width: 54px; 
+    font-size: 25px;
+    
+}
+#header__Home a b{
+    position: absolute;
+    top: 28px;
+    font-size: 40px;
+    color: black;
+}
+#Header__menu{
+    margin-left: 160px;
+    padding-top: 15px;
+}
+#Header__menu ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    margin-left: 32px;
+    font-size: 20px;
+}
+#Header__menu ul li.active a{
+    color: #fdc800;
+}
+#Header__menu ul li a{
+    color: black;
+}
+#carousel {
+    background-image: url(..//images/2.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 800px;
+    position: relative;
+    
+}
+
+#carousel .carousel__item {
+    float: left;
+    width: 470px;
+    height: 310px;
+    padding: 15px;
+    margin-left: 30px;
+}
+
+#carousel .carousel__text {
+    background-color: #ffffff;
+    padding: 70px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+
+}
+
+#carousel .carousel__content {
+    position: absolute;
+    bottom: -120px;
+    left: 230px;
+     
+}
+#carousel i{
+    color: #fdc800;
+    font-size: 50px;
+}
+.carousel__text button{
+    padding: 13px 54px;
+    border-radius: 5px;
+    color: black;
+    background-color:#fdc800;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+#body2{
+    padding-top: 350px;
+    position: relative;
+}
+#body2 .end__body2{
+    width: 50%;
+    padding-left: 250px;
+    margin-left: 30px;
+
+}
+#body .body__text{
+    width: 100%;
+    margin-left: 15px  ;
+    
+}
+.body__text{
+    font-size: 30px;
+    text-align: left;
+    
+    
+}
+.body__text img{
+    position: absolute;
+    right: 200px;
+    bottom: -5px;
+}
+.body__text button{
+    text-align: center;
+    background-color: #fdc800;
+    height: 55px;
+    width: 183px;
+    
+    border-radius: 5px;
+}   
+.body__text button b{
+    font-size: 20px;
+    height: 50px;
+}
+.body__text h3 b{
+    font-size: 5rem;
+}
+.icon__content{
+    padding-top: 15rem;
+    width: 80%;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-left: 225px;
+}
+.icon__item{
+    height: 150 px;
+    width: 22%;
+    border-right: 3px solid white;
+    background-color: #002147;
+    margin-left: 2rem;
+    
+}
+.icon__item i{
+    color: white;
+    font-size: 45px;
+    padding-top: 40px;
+}
+.icon__item p{
+    color:white;
+    padding: 15px;
+}
+
+
+.icon__content2{
+    padding-top: 2rem;
+    width: 80%;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    height: 165px;
+    margin-left: 225px;
+}
+.icon__item2{
+    height: 150 px;
+    width: 22%;
+    border-right: 3px solid white;
+    background-color: #002147;
+    margin-left: 2rem;
+    
+}
+.icon__item2 i{
+    color: white;
+    font-size: 45px;
+    padding-top: 40px;
+}
+.icon__item2 p{
+    color:white;
+    padding: 15px;
+}
+
+#body3__active{
+    padding-top: 8rem;
+    width: 100%;
+   
+
+}
+.body3__items{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    padding-bottom: 5rem ;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+    height: 160px;
+}
+.body3__text{
+    margin-left: 100px;
+    text-align: left;
+    
+}
+.body3__text h3,p{
+    padding-top: 30px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.body3__text h3{
+    color: #212529;
+    font-weight: 700;
+    font-size: 75px;
+}
+.body3__text p{
+    color: #212529;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#background__body4{
+   padding:10px;
+    background-image: url(..//images/3.jpg);
+    height: 700px;
+    position: relative;
+    
+}
+
+    
+#body4{
+    display: inline;
+    padding: 70px;
+    background-color:rgba(0, 6, 97, 0.6);
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    margin-top: -700px;
+    
+    
+  }
+  .body4__text{
+    width: 40%;
+    margin-left: 50px;
+    color: #f6f6f6;
+    
+  }
+  .body4__text h2 p{
+    padding-top: 10px;
+
+  }
+  .body4__text h2{
+    font-weight: 600;
+    font-size: 50px;
+  }
+  .body4__text p{
+    font-size: 30px;
+  }
+#body4__2{
+  display: inline;
+  position: absolute;
+  margin-top: -550px;
+  right: 60px;
+  text-align: center;
+  width: 50%;
+}
+  .body4-2__img img{
+    border-radius: 100px;
+    text-align: center;
+  }
+  .body4-2__text h2{
+    color: #fdc800;
+    padding-top: 15px;
+    font-weight: 700;
+  }
+  .body4-2__text h3{
+    color: #ffffff;
+    font-weight: 600;
+    
+  }
+  .body4-2__text p{
+    font-size: 25px;
+    padding: 50px;
+    color: #ffffff;
+  }
+#active__body5{
+  background-color: #f6f6f6;
+  height: 700px;
+}
+.boxtobox__body5{
+  display: flex;
+  margin-right: 300px;
+  margin-left: 300px;
+  background-color: white;
+  padding-top: 400px;
+  
+}
+.column__right{
+  border-radius: 5px;
+  
+}
